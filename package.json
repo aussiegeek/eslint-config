@@ -4,7 +4,8 @@
     "packages/*"
   ],
   "scripts": {
-    "lint": "yarn eslint packages --ext .js,.jsx,.ts,.tsx --max-warnings=0 --fix"
+    "lint": "yarn eslint packages --ext .js,.jsx,.ts,.tsx --max-warnings=0 --fix",
+    "release": "changeset publish"
   },
   "husky": {
     "hooks": {
