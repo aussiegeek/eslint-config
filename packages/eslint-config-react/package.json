@@ -1,6 +1,8 @@
 {
-  "name": "@aussiegeek/eslint-config-base",
-  "version": "0.1.0",
+  "name": "@aussiegeek/eslint-config-react",
+  "dependencies": {
+    "@aussiegeek/eslint-config-base": "workspace:packages/eslint-config-base"
+  },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "*",
     "@typescript-eslint/parser": "*",
@@ -9,8 +11,12 @@
     "eslint-plugin-eslint-comments": "*",
     "eslint-plugin-jest": "*",
     "eslint-plugin-jest-formatting": "*",
+    "eslint-plugin-jsx-a11y": "*",
     "eslint-plugin-prettier": "*",
     "eslint-plugin-promise": "*",
+    "eslint-plugin-react": "*",
+    "eslint-plugin-react-hooks": "*",
+    "eslint-plugin-testing-library": "*",
     "typescript": "*"
   }
 }
