@@ -1,7 +1,7 @@
 {
   "name": "@aussiegeek/eslint-config-react",
   "dependencies": {
-    "@aussiegeek/eslint-config-base": "workspace:packages/eslint-config-base"
+    "@aussiegeek/eslint-config-base": "0.1.0"
   },
   "version": "0.0.0",
   "peerDependencies": {
